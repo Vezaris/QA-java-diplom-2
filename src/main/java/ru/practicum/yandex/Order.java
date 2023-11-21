@@ -1,16 +1,17 @@
 package ru.practicum.yandex;
 
 public class Order {
-    private String ingredients;
 
-    public String getIngredients() {
-        return ingredients;
-    }
+  private String ingredients;
 
-    public void setIngredients(String ingredients) {
-        this.ingredients = ingredients;
-    }
+  public String getIngredients() {
+    return ingredients;
+  }
 
-    public Order() {
-    }
+  public void setIngredients(String ingredients) {
+    this.ingredients = ingredients;
+  }
+
+  public Order() {
+  }
 }
